@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('model.jpg');
+    background-size: cover;
+}
+
+nav{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 47, 165);
+    background-color: #fff;
+    position: static;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+nav h2{
+    margin-left: 10px;
+    cursor: pointer;
+    color:#000;
+}
+
+nav h2 span{
+    font-style: italic;
+    color:rgb(255, 47, 165)
+
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 4px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover{
+    padding: 12px;
+    background-color: rgb(255, 47, 165);
+    transition: 1s;
+
+}
+
+nav .btn{
+    color: #000;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    padding: 12px;
+    background-color: rgb(255, 47, 165);
+
+}
+
+.content h1{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 50px;
+}
+
+.content span{
+    color: #000;
+}
+
+.shop{
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 26%;
+    font-size: 25px;
+}
+.shop a{
+    text-decoration: none;
+    color: #fff;
+    background-color:  rgb(255, 47, 165);
+    padding: 10px;
+    border: 2px solid #000;
+    
+}
+footer{
+    position: absolute;
+    top:100%;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    padding:10px 10px;;
+}
+ footer a{
+    text-decoration: none;
+    color:white;
+    margin-right:100px;
+    font-size: large;
+ }
+ footer a:hover{
+    padding: 12px;
+    color: #fff;
+    transition: 1s;
+
+}
+ 
